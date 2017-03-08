@@ -1,0 +1,134 @@
+{
+    "project_type": "gradle",
+    "android_gradle_plugin_version": "2.1.3",
+    "freeline_gradle_plugin_version": "0.8.5",
+    "java_home": "C:\\Program Files\\Java\\jdk1.8.0_65",
+    "freeline_cache_dir": "G:\\MyRefreshview\\MyApplication4",
+    "auto_dependency": true,
+    "product_flavor": "",
+    "build_script": "gradlew.bat :app:assembleDebug",
+    "build_script_work_directory": "",
+    "root_dir": "G:\\MyRefreshview\\MyApplication4",
+    "main_project_name": "app",
+    "main_project_dir": "app",
+    "build_directory": "G:\\MyRefreshview\\MyApplication4\\app\\build",
+    "build_cache_dir": "G:\\MyRefreshview\\MyApplication4\\app\\build\\freeline",
+    "build_tools_version": "23.0.2",
+    "sdk_directory": "D:\\adt-bundle-windows-x86_64-20140702\\adt-bundle-windows-x86_64-20140702\\sdk",
+    "build_tools_directory": "D:\\adt-bundle-windows-x86_64-20140702\\adt-bundle-windows-x86_64-20140702\\sdk\\build-tools\\23.0.2",
+    "compile_sdk_version": "android-24",
+    "compile_sdk_directory": "D:\\adt-bundle-windows-x86_64-20140702\\adt-bundle-windows-x86_64-20140702\\sdk\\platforms\\android-24",
+    "package": "com.hncgc1990.myrefreshview",
+    "debug_package": "com.hncgc1990.myrefreshview",
+    "main_manifest_path": "G:\\MyRefreshview\\MyApplication4\\app\\src\\main\\AndroidManifest.xml",
+    "launcher": "com.hncgc1990.myrefreshview.CanvasActivity",
+    "apk_path": "G:\\MyRefreshview\\MyApplication4\\app\\build\\outputs\\apk\\app-debug.apk",
+    "extra_dep_res_paths": [
+        
+    ],
+    "exclude_dep_res_paths": [
+        
+    ],
+    "main_r_path": "G:\\MyRefreshview\\MyApplication4\\app\\build\\generated\\source\\r\\debug\\R.java",
+    "use_jdk8": false,
+    "ignore_resource_ids": [
+        "avd_hide_password_1",
+        "avd_hide_password_2",
+        "avd_hide_password_3",
+        "avd_show_password_1",
+        "avd_show_password_2",
+        "avd_show_password_3"
+    ],
+    "main_src_directory": [
+        "G:\\MyRefreshview\\MyApplication4\\app\\src\\debug\\java",
+        "G:\\MyRefreshview\\MyApplication4\\app\\src\\main\\java"
+    ],
+    "main_res_directory": [
+        "G:\\MyRefreshview\\MyApplication4\\app\\src\\debug\\res",
+        "G:\\MyRefreshview\\MyApplication4\\app\\src\\main\\res"
+    ],
+    "main_assets_directory": [
+        "G:\\MyRefreshview\\MyApplication4\\app\\src\\debug\\assets",
+        "G:\\MyRefreshview\\MyApplication4\\app\\src\\main\\assets"
+    ],
+    "main_jni_directory": [
+        "G:\\MyRefreshview\\MyApplication4\\app\\src\\debug\\jni",
+        "G:\\MyRefreshview\\MyApplication4\\app\\src\\main\\jni"
+    ],
+    "main_jniLibs_directory": [
+        "G:\\MyRefreshview\\MyApplication4\\app\\src\\debug\\jniLibs",
+        "G:\\MyRefreshview\\MyApplication4\\app\\src\\main\\jniLibs"
+    ],
+    "project_source_sets": {
+        "app": {
+            "main_src_directory": [
+                "G:\\MyRefreshview\\MyApplication4\\app\\src\\debug\\java",
+                "G:\\MyRefreshview\\MyApplication4\\app\\src\\main\\java"
+            ],
+            "main_res_directory": [
+                "G:\\MyRefreshview\\MyApplication4\\app\\src\\debug\\res",
+                "G:\\MyRefreshview\\MyApplication4\\app\\src\\main\\res"
+            ],
+            "main_assets_directory": [
+                "G:\\MyRefreshview\\MyApplication4\\app\\src\\debug\\assets",
+                "G:\\MyRefreshview\\MyApplication4\\app\\src\\main\\assets"
+            ],
+            "main_jni_directory": [
+                "G:\\MyRefreshview\\MyApplication4\\app\\src\\debug\\jni",
+                "G:\\MyRefreshview\\MyApplication4\\app\\src\\main\\jni"
+            ],
+            "main_jniLibs_directory": [
+                "G:\\MyRefreshview\\MyApplication4\\app\\src\\debug\\jniLibs",
+                "G:\\MyRefreshview\\MyApplication4\\app\\src\\main\\jniLibs"
+            ],
+            "main_manifest_path": "G:\\MyRefreshview\\MyApplication4\\app\\src\\main\\AndroidManifest.xml"
+        },
+        "mylibrary": {
+            "main_src_directory": [
+                "G:\\MyRefreshview\\MyApplication4\\mylibrary\\src\\release\\java",
+                "G:\\MyRefreshview\\MyApplication4\\mylibrary\\src\\main\\java"
+            ],
+            "main_res_directory": [
+                "G:\\MyRefreshview\\MyApplication4\\mylibrary\\src\\release\\res",
+                "G:\\MyRefreshview\\MyApplication4\\mylibrary\\src\\main\\res"
+            ],
+            "main_assets_directory": [
+                "G:\\MyRefreshview\\MyApplication4\\mylibrary\\src\\release\\assets",
+                "G:\\MyRefreshview\\MyApplication4\\mylibrary\\src\\main\\assets"
+            ],
+            "main_jni_directory": [
+                "G:\\MyRefreshview\\MyApplication4\\mylibrary\\src\\release\\jni",
+                "G:\\MyRefreshview\\MyApplication4\\mylibrary\\src\\main\\jni"
+            ],
+            "main_jniLibs_directory": [
+                "G:\\MyRefreshview\\MyApplication4\\mylibrary\\src\\release\\jniLibs",
+                "G:\\MyRefreshview\\MyApplication4\\mylibrary\\src\\main\\jniLibs"
+            ],
+            "main_manifest_path": "G:\\MyRefreshview\\MyApplication4\\mylibrary\\src\\main\\AndroidManifest.xml"
+        }
+    },
+    "modules": [
+        {
+            "name": "app",
+            "path": "G:\\MyRefreshview\\MyApplication4\\app"
+        },
+        {
+            "name": "mylibrary",
+            "path": "G:\\MyRefreshview\\MyApplication4\\mylibrary"
+        }
+    ],
+    "module_dependencies": {
+        "app": [
+            "mylibrary"
+        ],
+        "mylibrary": [
+            
+        ]
+    },
+    "databinding": [
+        
+    ],
+    "databinding_modules": [
+        
+    ]
+}

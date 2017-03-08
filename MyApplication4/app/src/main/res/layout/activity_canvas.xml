@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.hncgc1990.myrefreshview.CanvasActivity">
+
+
+
+   <!-- <com.hncgc1990.myrefreshview.canvas.RoundRectView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        ></com.hncgc1990.myrefreshview.canvas.RoundRectView>
+
+
+    <com.hncgc1990.myrefreshview.canvas.CircleView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <com.hncgc1990.myrefreshview.canvas.ArcView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <com.hncgc1990.myrefreshview.canvas.CanvasTranslateView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+
+    <com.hncgc1990.myrefreshview.canvas.CanvasScaleView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <com.hncgc1990.myrefreshview.canvas.CanvasRotateView
+        android:id="@+id/rotateview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <com.hncgc1990.myrefreshview.canvas.CanvasImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <com.hncgc1990.myrefreshview.canvas.CanvasTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <com.hncgc1990.myrefreshview.Paint.ColorFilterView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <com.hncgc1990.myrefreshview.path.PathBaseView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <com.hncgc1990.myrefreshview.path.PathAddView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        />
+    <com.hncgc1990.myrefreshview.path.PathAddArcView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <com.hncgc1990.myrefreshview.path.RaderPathView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        />
+
+    <com.hncgc1990.myrefreshview.canvas.CanvasSkewView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+
+    <com.hncgc1990.myrefreshview.path.PathQuadToView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+
+    <com.hncgc1990.myrefreshview.path.PathOpView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <com.hncgc1990.myrefreshview.path.PathMeasureView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.hncgc1990.myrefreshview.path.PathSegmentView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.hncgc1990.myrefreshview.matrix.MatrixSetpolyTopolyView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.hncgc1990.myrefreshview.matrix.MatrixSetpolyTopolyDemoView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <com.hncgc1990.myrefreshview.event.EventJusView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="40dp"/>
+
+    <com.hncgc1990.myrefreshview.event.EventControlView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.hncgc1990.myrefreshview.event.EventMultiPointView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.hncgc1990.myrefreshview.event.EventImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.hncgc1990.myrefreshview.Paint.LightingColorFilterView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+
+    <com.hncgc1990.myrefreshview.Paint.EraserView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.hncgc1990.myrefreshview.Paint.PorterDuffColorFilterView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.hncgc1990.myrefreshview.Paint.patheffect.CornerPathView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <com.hncgc1990.myrefreshview.Paint.patheffect.DashPathView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <com.hncgc1990.myrefreshview.Paint.patheffect.DiscretePathView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <com.hncgc1990.myrefreshview.Paint.patheffect.PathDashView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.hncgc1990.myrefreshview.Paint.patheffect.ComposeView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.hncgc1990.myrefreshview.Paint.patheffect.SumView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <com.hncgc1990.myrefreshview.Paint.shaowlayer.ShadowlayerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <com.hncgc1990.myrefreshview.Paint.shader.BitmapShaderView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.hncgc1990.myrefreshview.Paint.shader.LinearGradientShaderView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+    <com.hncgc1990.myrefreshview.Paint.shader.RadilGradientShaderView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <com.hncgc1990.myrefreshview.Paint.shader.SweepGradientShaderView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.hncgc1990.myrefreshview.Paint.shader.ComposeShaderView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.hncgc1990.myrefreshview.xielunyan.WanHtView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.hncgc1990.myrefreshview.xielunyan.SgyView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.hncgc1990.myrefreshview.Paint.maskfilter.BlurMaskView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+    <com.hncgc1990.myrefreshview.Paint.text.TextDrawView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.hncgc1990.myrefreshview.xielunyan.WhtXView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />-->
+
+    <com.hncgc1990.myrefreshview.xielunyan.WhtAView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+
+</LinearLayout>

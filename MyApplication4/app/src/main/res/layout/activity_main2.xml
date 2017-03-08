@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hncgc1990.myrefreshview.scroller.Main2Activity">
+
+    <LinearLayout
+        android:id="@+id/ll_control"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="scrool"
+            android:text="滑动"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="startStrool"
+            android:text="startStrool"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="springBack"
+            android:text="springBack"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="fling"
+            android:text="fling"/>
+
+    </LinearLayout>
+
+
+
+
+    <com.hncgc1990.myrefreshview.scroller.ScrollerLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/ll_content"
+        android:layout_above="@id/ll_control">
+
+
+
+        <TextView
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:background="@android:color/holo_red_dark"/>
+
+
+
+
+
+    </com.hncgc1990.myrefreshview.scroller.ScrollerLinearLayout>
+
+
+
+
+</RelativeLayout>
