@@ -10,12 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" />
-        <activity android:name=".CanvasActivity"></activity>
-        <activity android:name=".scroller.ScrollerDemoActivity">
-
-        </activity>
+        <activity android:name=".CanvasActivity" />
+        <activity android:name=".scroller.ScrollerDemoActivity"></activity>
         <activity android:name=".scroller.Main2Activity">
 
+        </activity>
+        <activity android:name=".constrainlayout.ConstrainLayoutActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
